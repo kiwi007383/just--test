@@ -18,3 +18,14 @@ const newPersonsArray = newPersons.filter(newPerson =>{
 });
 
 console.log(newPersonsArray);
+
+let userfeedback = confirm("Are you sure want to delete this post");
+
+if(userfeedback){
+    console.log("Your post is deleted!");
+}else{
+    console.log("Your post is not deleted!");
+};
+
+let password = prompt("Your password?");
+console.log(password);
