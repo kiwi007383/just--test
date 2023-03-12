@@ -29,3 +29,11 @@ if(userfeedback){
 
 let password = prompt("Your password?");
 console.log(password);
+
+let age = prompt('Enter your age!');
+
+if(age >= 1 && age <= 17){
+    console.log('You are not allowed!');
+}else if(age >= 18){
+    console.log('You are allowed to acess this page!');
+};
